@@ -5,6 +5,7 @@
 }
 
 body{
+color: #40514e;
 margin: 0;
 text-align: center;
 font-family: 'Merriweather', serif;
@@ -28,6 +29,10 @@ h3{
 }
 a{
     color: #11999E;
+    text-decoration: none;
+}
+a:hover{
+    color: #eaf6f6;
 }
 span{
     text-decoration: underline;
@@ -44,24 +49,34 @@ span{
     float: left;
     margin-right: 30px;
 }
+.intro{
+    margin: auto;
+    width: 30%;
+}
 
 .middle-container{
   
 }
+p{
+    line-height: 2;
+}
 
 .bottom-container{
-    
+    padding-bottom: 20px;
+    padding-top: 40px;
+    background-color: #66bfbf;
+    margin-bottom: 0px;
 }
 
 .skill-row{
     text-align: left;
     margin: 100px auto 100px auto;
     width: 50%;
-    line-height: 2;
 }
 
 .profile-image{
-    width: 185px;
+    width: 140px;
+    margin-top: 80px;
 }
 
 .bottom-cloud{
@@ -74,4 +89,43 @@ span{
     position: absolute;
     top: 50px;
     right: 20%;
+}
+
+hr{
+    margin: 100px auto 90px;
+    width: 6%;
+    border-style: none;
+    border-top: dotted;
+    border-color: #eaf6f6;
+    border-width: 5px;
+}
+.contact-message{
+    margin: 40px auto 60px;
+    width: 40%;
+}
+.contact-button{
+    border-radius: 5px;
+    padding: 8px;
+    display: inline-block;
+    background-color: #11999E;
+    margin: 30px auto 50px;
+}
+.btn{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+.footer-link{
+    color: #11999E;
+    padding-right: 20px;
+    font-size: small;
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+.company{
+    padding: 20px 0px;
+    font-size: 0.75rem;
+    color: #eaf6f6;
 }
