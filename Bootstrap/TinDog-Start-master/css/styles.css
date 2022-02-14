@@ -34,3 +34,58 @@
     width: 60%;
     transform: rotate(25deg);
 }
+/* Icons */
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.fa-solid:hover{
+    color: #ff4c68;
+}
+
+/* features */
+#features{
+    padding: 7% 15%;
+}
+.feature-box{
+    margin: 30px auto;
+    text-align: center;
+    padding: 5%;
+}
+.features-head{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 1.5rem;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    font-weight: 100;
+    font-size: 3rem;
+}
+
+.features-paragraph{
+    color: #8f8f8f;
+}
+
+/* Testimonial Section */
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+/* Press Section */
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-image{
+    width: 10%;
+}
